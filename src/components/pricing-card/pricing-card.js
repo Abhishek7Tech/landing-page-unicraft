@@ -21,7 +21,7 @@ const PricingCard = () => {
             <div
               className={`${plan.bg} rounded-2xl border-1 px-6 py-10 ${
                 planName === "Professional" ? "mt-8" : "mt-10"
-              } w-90`}
+              } w-90`} key={plan.name}
             >
               <h2
                 className={`${
