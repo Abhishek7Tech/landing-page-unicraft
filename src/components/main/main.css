@@ -1,3 +1,5 @@
 .main {
     background-image: url("../../utils/backgrounds/nav-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
