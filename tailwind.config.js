@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       width: {
         'hl': "1100px",
+        'hlx': "1312px",
         '54': "215px",
         '80': "297px",
         '84': "330px",
@@ -28,7 +29,8 @@ module.exports = {
         '18xl': "240px",
         '1xl': "22px",
         '4.5xl': "42px",
-        '5.5xl': "56px"
+        '5.5xl': "56px",
+        '5.6xl': "58px"
       }
     },
   },

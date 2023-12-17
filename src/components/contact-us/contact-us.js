@@ -11,10 +11,10 @@ const ContactUs = () => {
   return (
     <div className="contact-us">
       <section className="mt-12 mb-8 text-center">
-        <h1 className="text-4.5xl lg:text-7xl text-gray-900 font-black px-2 pt-12">
+        <h1 className="text-4.5xl md:text-7xl text-gray-900 font-black px-2 pt-12">
           No long-term contracts.
         </h1>
-        <h1 className="text-4.5xl lg:text-7xl text-gray-900 font-black px-2 pt-2">
+        <h1 className="text-4.5xl md:text-7xl text-gray-900 font-black px-2 pt-2">
           No catches. Simple.
         </h1>
         <p className="text-xl text-gray-500 font-medium pt-6 pb-4">

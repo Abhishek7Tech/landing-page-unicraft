@@ -18,10 +18,10 @@ const Questions = () => {
   };
   return (
     <section className="mt-8 mb-24 p-2">
-      <h1 className="text-gray-900 font-bold text-4.5xl px-2 lg:text-5.5xl text-center">
+      <h1 className="text-gray-900 font-bold text-4.5xl px-2 md:text-5.6xl text-center">
         Frequently asked questions
       </h1>
-      <p className="text-gray-500 font-medium text-base lg:text-xl text-center mt-1 mb-4">
+      <p className="text-gray-500 font-medium text-base md:text-xl text-center mt-1 mb-4">
         Everything you need to know about the product and billing.
       </p>
       <div className="mt-6 mb-4 w-max-128 m-auto">
