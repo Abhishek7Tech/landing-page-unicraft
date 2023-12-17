@@ -6,7 +6,7 @@ import Frame5 from "../../utils/images/Frame 5.png";
 
 const WorkSection = () => {
   return (
-    <section className="text-center mt-4 mb-6">
+    <section className="hidden lg:block lg:text-center lg:mt-4 lg:mb-6">
       <div className="flex justify-between">
         <img src={Frame1} alt="work-testimonial"></img>
         <img src={Frame2} alt="work-testimonial"></img>

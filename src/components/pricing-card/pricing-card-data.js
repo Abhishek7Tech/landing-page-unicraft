@@ -3,7 +3,7 @@ const PrincingData = [
     name: "Freebie",
     details: "Ideal for individuals who need quick access to basic features.",
     price: 0,
-    bg: "bg-gray-100",
+    bg: "bg-gray-50",
     features: [      
       {
         for: "freebie",

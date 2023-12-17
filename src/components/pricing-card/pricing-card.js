@@ -6,20 +6,20 @@ import ProfessionalAvailableTick from "../../utils/images/professional-available
 
 const PricingCard = () => {
   return (
-    <section className="pricing mt-6 mb-12">
-      <h1 className="font-bold text-6xl pt-12 pb-4 text-center text-gray-800">
+    <section className="pricing mt-24 mb-12">
+      <h1 className="font-bold text-4.5xl px-2 lg:text-6xl pt-12 pb-4 text-center text-gray-800">
         Pricing made for collaborative support.
       </h1>
-      <p className="text-gray-500 text-xl font-medium max-w-2xl text-center m-auto pt-4 pb-4">
+      <p className="text-gray-500 text-base px-2 lg:text-xl font-medium max-w-2xl text-center m-auto pt-4 pb-4">
         Plain is made for your entire company. Only pay for users that actually
         message customers. Everyone else is free, forever.
       </p>
-      <div className="flex justify-evenly max-w-6.5xl m-auto">
+      <div className="flex flex-col items-center md:flex-row justify-evenly max-w-6.5xl m-auto pb-12">
         {PrincingData.map((plan) => {
           const planName = plan.name;
           return (
             <div
-              className={`${plan.bg} rounded-2xl border-1 px-6 py-10 ${
+              className={`${plan.bg} rounded-2xl border-1 px-6 py-6 lg:py-10 ${
                 planName === "Professional" ? "mt-8" : "mt-10"
               } w-90`} key={plan.name}
             >

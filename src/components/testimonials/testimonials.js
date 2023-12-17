@@ -2,7 +2,7 @@ import Avatar from "../../utils/images/Avatar.png";
 import SisyPhus from "../../utils/images/sisyphus.png";
 const Testimonials = () => {
   return (
-    <section className="mt-12 p-2 mb-6 text-center m-auto bg-gray-50">
+    <section className="hidden lg:block mt-20 p-2 mb-6 text-center m-auto bg-gray-50">
       <img src={SisyPhus} alt="sisyphus-company-logo" className="pt-12 pb-2 m-auto"></img>
       <h1 className="font-bold text-5xl max-w-7.5xl m-auto pt-8 pb-2 text-gray-800">
         We’ve been with unicraft to kick start every new project and can’t

@@ -17,14 +17,14 @@ const Questions = () => {
     setQuestions(updatedQuestions);
   };
   return (
-    <section className="mt-8 mb-12">
-      <h1 className="text-gray-900 font-bold text-5.5xl text-center">
+    <section className="mt-8 mb-24">
+      <h1 className="text-gray-900 font-bold text-4.5xl px-2 lg:text-5.5xl text-center">
         Frequently asked questions
       </h1>
-      <p className="text-gray-500 font-medium text-xl text-center mt-1 mb-4">
+      <p className="text-gray-500 font-medium text-base lg:text-xl text-center mt-1 mb-4">
         Everything you need to know about the product and billing.
       </p>
-      <div className="mt-6 mb-4 w-128 m-auto">
+      <div className="mt-6 mb-4 w-max-128 m-auto">
         {questions.map((question) => {
           return (
             <div className="border-b-1 border-gray-200" key={question.id}>
@@ -54,7 +54,7 @@ const Questions = () => {
               </div>
               {question.open && (
                 <div className="mb-6 ease-in-out duration-1000 delay-1000">
-                  <p className="text-gray-500 text-base font-medium">
+                  <p className="text-gray-500 text-base font-medium px-2 py-2">
                     {question.answer}
                   </p>
                 </div>
