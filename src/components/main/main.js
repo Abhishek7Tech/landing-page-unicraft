@@ -1,4 +1,3 @@
-import Brands from "../brands/brands";
 import Navbar from "../navbar/navbar";
 import "./main.css";
 const Main = () => {

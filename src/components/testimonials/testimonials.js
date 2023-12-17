@@ -9,7 +9,7 @@ const Testimonials = () => {
         imagine working without it.
       </h1>
       <div className="pb-16">
-        <img src={Avatar} alt="Candice Wu Image" className="pt-6 pb-4 m-auto"></img>
+        <img src={Avatar} alt="Candice Wu" className="pt-6 pb-4 m-auto"></img>
         <h2 className="text-lg font-medium">Candice Wu</h2>
         <span className="text-gray-500 text-base pt-2">Product Manager, Sisyphus</span>
       </div>

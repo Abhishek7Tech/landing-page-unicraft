@@ -21,6 +21,7 @@ module.exports = {
       maxWidth: {
         "7.5xl": "1260px",
         "6.5xl": "1184px",
+        "w-x": "360px"
       },
       borderWidth: {
         '1': "1px"
