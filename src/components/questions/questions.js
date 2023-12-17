@@ -17,7 +17,7 @@ const Questions = () => {
     setQuestions(updatedQuestions);
   };
   return (
-    <section className="mt-8 mb-24">
+    <section className="mt-8 mb-24 p-2">
       <h1 className="text-gray-900 font-bold text-4.5xl px-2 lg:text-5.5xl text-center">
         Frequently asked questions
       </h1>
@@ -33,7 +33,7 @@ const Questions = () => {
                   {question.question}
                 </p>
                 {question.open ? (
-                  <button onClick={questionHandler}>
+                  <button className="px-1" onClick={questionHandler}>
                     <img
                       src={Minus}
                       alt="minus-btn"
@@ -42,7 +42,7 @@ const Questions = () => {
                     ></img>
                   </button>
                 ) : (
-                  <button onClick={questionHandler}>
+                  <button className="px-1" onClick={questionHandler}>
                     <img
                       src={Plus}
                       alt="plus-btn"

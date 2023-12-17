@@ -21,7 +21,7 @@ const PricingCard = () => {
             <div
               className={`${plan.bg} rounded-2xl border-1 px-6 py-6 lg:py-10 ${
                 planName === "Professional" ? "mt-8" : "mt-10"
-              } w-90`} key={plan.name}
+              } w-87 lg:w-90`} key={plan.name}
             >
               <h2
                 className={`${
@@ -68,7 +68,7 @@ const PricingCard = () => {
                     planName === "Professional"
                       ? "bg-gray-50"
                       : "border-gray-600"
-                  } rounded-lg border-1 w-84 h-11 mt-6 mb-6`}
+                  } rounded-lg border-1 w-80 lg:w-84 h-11 mt-6 mb-6`}
                 >
                   Get Started Now
                 </button>
