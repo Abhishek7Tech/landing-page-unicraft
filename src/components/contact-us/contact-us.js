@@ -26,7 +26,7 @@ const ContactUs = () => {
           </button>
         </div>
       </section>
-      <footer className="mt-16 mb-4 border-t-1 border-gray-300 w-max-7.5xl mx-4 m-auto">
+      <footer className="mt-16 mb-4 border-t-1 border-gray-300 w-max-7.5xl mx-4 md:mx-8 m-auto">
         <h2 className="font-bold text-2xl text-gray-700 mt-5 lg:mt-4 mb-3">
           UniCraft
         </h2>

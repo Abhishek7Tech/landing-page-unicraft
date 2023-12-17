@@ -27,7 +27,7 @@ const Questions = () => {
       <div className="mt-6 mb-4 w-max-128 m-auto">
         {questions.map((question) => {
           return (
-            <div className="border-b-1 border-gray-200" key={question.id}>
+            <div className="border-b-1 border-gray-200 md:max-w-3xl m-auto" key={question.id}>
               <div className="flex justify-between py-5">
                 <p className="text-gray-800 font-medium text-xl">
                   {question.question}
