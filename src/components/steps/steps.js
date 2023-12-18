@@ -1,7 +1,10 @@
+import { useContext } from "react";
 import Arrow from "../../utils/images/arrow.png";
+import { ScrollContext } from "../../contexts/scroll-context";
 const Steps = () => {
+  const {howItWorks} = useContext(ScrollContext);
   return (
-    <section className="hidden lg:block border-gray-200 rounded-lg shadow-lg shadow-gray-200 border-1 mt-12 p-2 mb-6 text-center max-w-7.5xl m-auto">
+    <section ref={howItWorks} className="hidden lg:block border-gray-200 rounded-lg shadow-lg shadow-gray-200 border-1 mt-12 p-2 mb-6 text-center max-w-7.5xl m-auto">
       <h1 className="font-bold text-5xl text-gray-800 mt-6 mb-2">
         How it works
       </h1>

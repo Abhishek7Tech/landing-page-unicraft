@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ScrollerProvider from './contexts/scroll-context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <ScrollerProvider>
     <App />
+    </ScrollerProvider>
   </React.StrictMode>
 );
 

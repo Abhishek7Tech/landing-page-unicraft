@@ -3,10 +3,13 @@ import PrincingData from "./pricing-card-data";
 import AvailableTick from "../../utils/images/available-tick.png";
 import UnavailableTick from "../../utils/images/unavailable-tick.png";
 import ProfessionalAvailableTick from "../../utils/images/professional-available-tick.png";
+import { useContext } from "react";
+import { ScrollContext } from "../../contexts/scroll-context";
 
 const PricingCard = () => {
+  const {pricing} = useContext(ScrollContext);
   return (
-    <section className="pricing mt-24 mb-12">
+    <section ref={pricing} className="pricing mt-24 mb-12">
       <h1 className="font-bold text-4.5xl px-2 md:text-6xl pt-12 pb-4 text-center text-gray-800">
         Pricing made for collaborative support.
       </h1>

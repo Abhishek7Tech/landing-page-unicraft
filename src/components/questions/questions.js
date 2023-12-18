@@ -1,9 +1,11 @@
 import QuestionsArray from "./questions-data";
 import Minus from "../../utils/images/minus-btn.png";
 import Plus from "../../utils/images/plus-btn.png";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { ScrollContext } from "../../contexts/scroll-context";
 
 const Questions = () => {
+  const {faq} = useContext(ScrollContext);
   const [questions, setQuestions] = useState(QuestionsArray);
 
   const questionHandler = (e) => {
@@ -17,7 +19,7 @@ const Questions = () => {
     setQuestions(updatedQuestions);
   };
   return (
-    <section className="mt-8 mb-24 p-2">
+    <section ref={faq} className="mt-8 mb-24 p-2">
       <h1 className="text-gray-900 font-bold text-4.5xl px-2 md:text-5.6xl text-center">
         Frequently asked questions
       </h1>
