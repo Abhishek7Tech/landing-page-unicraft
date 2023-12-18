@@ -21,7 +21,7 @@ const ContactUs = () => {
           Start your 30-day free trial. Cancel anytime.
         </p>
         <div className="mt-4 mb-2">
-          <button className="rounded-lg bg-gray-800 h-15 w-54 text-gray-50 font-bold text-xl">
+          <button className="rounded-lg bg-gray-800 h-15 w-54 text-gray-50 font-bold text-xl hover:-translate-y-1 hover:ease-in hover:duration-100 hover:delay-100">
             Contact us
           </button>
         </div>

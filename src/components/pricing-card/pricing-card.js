@@ -71,7 +71,7 @@ const PricingCard = () => {
                     planName === "Professional"
                       ? "bg-gray-50"
                       : "border-gray-600"
-                  } rounded-lg border-1 w-80 lg:w-84 h-11 mt-6 mb-6`}
+                  } rounded-lg border-1 w-80 lg:w-84 h-11 mt-6 mb-6 hover:-translate-y-1 hover:ease-in hover:duration-100 hover:delay-100`}
                 >
                   Get Started Now
                 </button>
