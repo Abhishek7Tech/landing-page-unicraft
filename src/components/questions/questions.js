@@ -39,7 +39,7 @@ const Questions = () => {
                     <img
                       src={Minus}
                       alt="minus-btn"
-                      className="h-6"
+                      className="h-6 w-6"
                       id={question.id}
                     ></img>
                   </button>
@@ -48,7 +48,7 @@ const Questions = () => {
                     <img
                       src={Plus}
                       alt="plus-btn"
-                      className="h-6"
+                      className="h-6 w-6"
                       id={question.id}
                     ></img>
                   </button>
