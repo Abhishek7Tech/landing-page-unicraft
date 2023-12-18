@@ -1,8 +1,8 @@
-import Frame1 from "../../utils/images/Frame 1.png";
-import Frame2 from "../../utils/images/Frame 2.png";
-import Frame3 from "../../utils/images/Frame 3.png";
-import Frame4 from "../../utils/images/Frame 4.png";
-import Frame5 from "../../utils/images/Frame 5.png";
+import Frame1 from "../../utils/images/Frame-1.webp";
+import Frame2 from "../../utils/images/Frame-2.webp";
+import Frame3 from "../../utils/images/Frame-3.webp";
+import Frame4 from "../../utils/images/Frame-4.webp";
+import Frame5 from "../../utils/images/Frame-5.webp";
 
 const WorkSection = () => {
   return (
