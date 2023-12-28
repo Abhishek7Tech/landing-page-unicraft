@@ -32,6 +32,9 @@ module.exports = {
         '4.5xl': "42px",
         '5.5xl': "56px",
         '5.6xl': "58px"
+      },
+      fontFamily: {
+        'satoshi': "Satoshi"
       }
     },
   },
