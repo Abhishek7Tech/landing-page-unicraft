@@ -5,12 +5,15 @@ import Hands from "../../utils/images/hands.png";
 import Linkedin from "../../utils/images/linkedin.png";
 import Github from "../../utils/images/github.png";
 import Dribble from "../../utils/images/dribble.png";
+import { useContext } from "react";
+import { ScrollContext } from "../../contexts/scroll-context";
 
 const ContactUs = () => {
   const Socials = [Tweeter, Facebook, Hands, Linkedin, Github, Dribble];
+  const {contactUs} = useContext(ScrollContext); 
   return (
     <div className="contact-us">
-      <section className="mt-12 mb-8 text-center">
+      <section ref={contactUs} className="mt-12 mb-8 text-center">
         <h1 className="text-4.5xl md:text-7xl text-gray-900 font-black px-2 pt-12">
           No long-term contracts.
         </h1>
